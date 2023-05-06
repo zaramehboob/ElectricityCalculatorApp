@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D714FF8297E59EB004D285A /* SlabProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D714FF7297E59EB004D285A /* SlabProvider.swift */; };
+		5D715008297E5C36004D285A /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D715007297E5C36004D285A /* CalculatorTests.swift */; };
+		5D71500B297E67D4004D285A /* CalculatorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71500A297E67D4004D285A /* CalculatorViewModelTests.swift */; };
+		5DA2D885297C3464005D94BB /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D884297C3464005D94BB /* Calculator.swift */; };
+		5DA2D889297C473B005D94BB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D888297C473B005D94BB /* Helper.swift */; };
+		5DA2D88C297C4944005D94BB /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D88B297C4944005D94BB /* RoundedButton.swift */; };
+		5DA2D88E297C49D1005D94BB /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D88D297C49D1005D94BB /* RoundTextField.swift */; };
+		5DA2D890297C704D005D94BB /* CalculatorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D88F297C704D005D94BB /* CalculatorContainer.swift */; };
+		5DA2D893297D2E4C005D94BB /* CustomerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D892297D2E4C005D94BB /* CustomerDTO.swift */; };
+		5DA2D895297D2E59005D94BB /* BillDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D894297D2E59005D94BB /* BillDTO.swift */; };
+		5DA2D898297D2EAA005D94BB /* CustomerRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D897297D2EAA005D94BB /* CustomerRepositoryType.swift */; };
+		5DA2D89A297D2EFE005D94BB /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2D899297D2EFE005D94BB /* CustomText.swift */; };
+		5DCAFC2B29794ED200FD55B0 /* ElectricityCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC2A29794ED200FD55B0 /* ElectricityCalculatorApp.swift */; };
+		5DCAFC2F29794ED300FD55B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAFC2E29794ED300FD55B0 /* Assets.xcassets */; };
+		5DCAFC3229794ED300FD55B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAFC3129794ED300FD55B0 /* Preview Assets.xcassets */; };
+		5DCAFC3729794ED300FD55B0 /* ElectricityCalculatorApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC3529794ED300FD55B0 /* ElectricityCalculatorApp.xcdatamodeld */; };
+		5DCAFC4F2979508000FD55B0 /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC4B2979508000FD55B0 /* CustomerView.swift */; };
+		5DCAFC502979508000FD55B0 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC4D2979508000FD55B0 /* CalculatorViewModel.swift */; };
+		5DCAFC512979508000FD55B0 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC4E2979508000FD55B0 /* CalculatorView.swift */; };
+		5DCAFC632979558D00FD55B0 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC622979558D00FD55B0 /* CoreDataService.swift */; };
+		5DCAFC6A29795BEB00FD55B0 /* CustomerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC6929795BEB00FD55B0 /* CustomerRepository.swift */; };
+		5DCAFC80297972F200FD55B0 /* CustomerFetchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC6429795B6700FD55B0 /* CustomerFetchUseCase.swift */; };
+		5DCAFC832979B00500FD55B0 /* CustomerCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC822979B00500FD55B0 /* CustomerCoreDataService.swift */; };
+		5DCAFC8D297AC7F000FD55B0 /* UpdateBillsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC8C297AC7F000FD55B0 /* UpdateBillsUseCase.swift */; };
+		5DCAFC93297ACCF400FD55B0 /* CustomerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC92297ACCF400FD55B0 /* CustomerEntity.swift */; };
+		5DCAFC95297AD98000FD55B0 /* CustomerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAFC94297AD98000FD55B0 /* CustomerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		5D71500D297FA82C004D285A /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist.strings;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyStrings\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		5D715001297E5BE6004D285A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DCAFC1F29794ED100FD55B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCAFC2629794ED200FD55B0;
+			remoteInfo = ElectricityCalculatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D714FF7297E59EB004D285A /* SlabProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlabProvider.swift; sourceTree = "<group>"; };
+		5D714FFD297E5BE6004D285A /* ElectricityCalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricityCalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D715007297E5C36004D285A /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		5D71500A297E67D4004D285A /* CalculatorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelTests.swift; sourceTree = "<group>"; };
+		5DA2D87C297BE77A005D94BB /* Bill+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5DA2D87D297BE77A005D94BB /* Bill+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5DA2D87E297BE77A005D94BB /* Customer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5DA2D87F297BE77A005D94BB /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5DA2D884297C3464005D94BB /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		5DA2D888297C473B005D94BB /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5DA2D88B297C4944005D94BB /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		5DA2D88D297C49D1005D94BB /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		5DA2D88F297C704D005D94BB /* CalculatorContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorContainer.swift; sourceTree = "<group>"; };
+		5DA2D892297D2E4C005D94BB /* CustomerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDTO.swift; sourceTree = "<group>"; };
+		5DA2D894297D2E59005D94BB /* BillDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDTO.swift; sourceTree = "<group>"; };
+		5DA2D897297D2EAA005D94BB /* CustomerRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRepositoryType.swift; sourceTree = "<group>"; };
+		5DA2D899297D2EFE005D94BB /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		5DCAFC2729794ED200FD55B0 /* ElectricityCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricityCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCAFC2A29794ED200FD55B0 /* ElectricityCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityCalculatorApp.swift; sourceTree = "<group>"; };
+		5DCAFC2E29794ED300FD55B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DCAFC3129794ED300FD55B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DCAFC3629794ED300FD55B0 /* ElectricityCalculatorApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElectricityCalculatorApp.xcdatamodel; sourceTree = "<group>"; };
+		5DCAFC4B2979508000FD55B0 /* CustomerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerView.swift; sourceTree = "<group>"; };
+		5DCAFC4D2979508000FD55B0 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		5DCAFC4E2979508000FD55B0 /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		5DCAFC622979558D00FD55B0 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		5DCAFC6429795B6700FD55B0 /* CustomerFetchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerFetchUseCase.swift; sourceTree = "<group>"; };
+		5DCAFC6929795BEB00FD55B0 /* CustomerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRepository.swift; sourceTree = "<group>"; };
+		5DCAFC822979B00500FD55B0 /* CustomerCoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCoreDataService.swift; sourceTree = "<group>"; };
+		5DCAFC8C297AC7F000FD55B0 /* UpdateBillsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBillsUseCase.swift; sourceTree = "<group>"; };
+		5DCAFC92297ACCF400FD55B0 /* CustomerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerEntity.swift; sourceTree = "<group>"; };
+		5DCAFC94297AD98000FD55B0 /* CustomerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D714FFA297E5BE6004D285A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAFC2429794ED200FD55B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D714FF6297E5995004D285A /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D884297C3464005D94BB /* Calculator.swift */,
+				5D714FF7297E59EB004D285A /* SlabProvider.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		5D714FFE297E5BE6004D285A /* ElectricityCalculatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D715009297E67B2004D285A /* CalculatorView */,
+				5D715006297E5C08004D285A /* Calculator */,
+			);
+			path = ElectricityCalculatorAppTests;
+			sourceTree = "<group>";
+		};
+		5D715006297E5C08004D285A /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5D715007297E5C36004D285A /* CalculatorTests.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		5D715009297E67B2004D285A /* CalculatorView */ = {
+			isa = PBXGroup;
+			children = (
+				5D71500A297E67D4004D285A /* CalculatorViewModelTests.swift */,
+			);
+			path = CalculatorView;
+			sourceTree = "<group>";
+		};
+		5DA2D886297C4717005D94BB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC2A29794ED200FD55B0 /* ElectricityCalculatorApp.swift */,
+				5DA2D88F297C704D005D94BB /* CalculatorContainer.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5DA2D887297C471C005D94BB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D888297C473B005D94BB /* Helper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5DA2D88A297C4931005D94BB /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D88B297C4944005D94BB /* RoundedButton.swift */,
+				5DA2D88D297C49D1005D94BB /* RoundTextField.swift */,
+				5DA2D899297D2EFE005D94BB /* CustomText.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		5DA2D891297D2E3C005D94BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D892297D2E4C005D94BB /* CustomerDTO.swift */,
+				5DA2D894297D2E59005D94BB /* BillDTO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DA2D896297D2E8E005D94BB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D897297D2EAA005D94BB /* CustomerRepositoryType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5DCAFC1E29794ED100FD55B0 = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC2929794ED200FD55B0 /* ElectricityCalculatorApp */,
+				5D714FFE297E5BE6004D285A /* ElectricityCalculatorAppTests */,
+				5DCAFC2829794ED200FD55B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DCAFC2829794ED200FD55B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC2729794ED200FD55B0 /* ElectricityCalculatorApp.app */,
+				5D714FFD297E5BE6004D285A /* ElectricityCalculatorAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCAFC2929794ED200FD55B0 /* ElectricityCalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D886297C4717005D94BB /* Main */,
+				5DCAFC612979557100FD55B0 /* Data */,
+				5DCAFC492979506400FD55B0 /* Presentation */,
+				5DCAFC3D29794F5400FD55B0 /* Domain */,
+				5DA2D887297C471C005D94BB /* Utils */,
+				5D714FF6297E5995004D285A /* Calculator */,
+				5DCAFC2E29794ED300FD55B0 /* Assets.xcassets */,
+				5DCAFC3529794ED300FD55B0 /* ElectricityCalculatorApp.xcdatamodeld */,
+				5DCAFC3029794ED300FD55B0 /* Preview Content */,
+			);
+			path = ElectricityCalculatorApp;
+			sourceTree = "<group>";
+		};
+		5DCAFC3029794ED300FD55B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC3129794ED300FD55B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DCAFC3D29794F5400FD55B0 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D896297D2E8E005D94BB /* Protocols */,
+				5DA2D891297D2E3C005D94BB /* Models */,
+				5DCAFC6629795B6B00FD55B0 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5DCAFC3E29794F5B00FD55B0 /* NSManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D87C297BE77A005D94BB /* Bill+CoreDataClass.swift */,
+				5DA2D87D297BE77A005D94BB /* Bill+CoreDataProperties.swift */,
+				5DA2D87E297BE77A005D94BB /* Customer+CoreDataClass.swift */,
+				5DA2D87F297BE77A005D94BB /* Customer+CoreDataProperties.swift */,
+				5DCAFC92297ACCF400FD55B0 /* CustomerEntity.swift */,
+			);
+			path = NSManagedObjects;
+			sourceTree = "<group>";
+		};
+		5DCAFC492979506400FD55B0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2D88A297C4931005D94BB /* UIComponents */,
+				5DCAFC4A2979508000FD55B0 /* CustomerList */,
+				5DCAFC4C2979508000FD55B0 /* CalculatorView */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5DCAFC4A2979508000FD55B0 /* CustomerList */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC4B2979508000FD55B0 /* CustomerView.swift */,
+				5DCAFC94297AD98000FD55B0 /* CustomerViewModel.swift */,
+			);
+			path = CustomerList;
+			sourceTree = "<group>";
+		};
+		5DCAFC4C2979508000FD55B0 /* CalculatorView */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC4D2979508000FD55B0 /* CalculatorViewModel.swift */,
+				5DCAFC4E2979508000FD55B0 /* CalculatorView.swift */,
+			);
+			path = CalculatorView;
+			sourceTree = "<group>";
+		};
+		5DCAFC612979557100FD55B0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC812979AFF500FD55B0 /* Services */,
+				5DCAFC3E29794F5B00FD55B0 /* NSManagedObjects */,
+				5DCAFC6B29795C1B00FD55B0 /* Repositories */,
+				5DCAFC622979558D00FD55B0 /* CoreDataService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5DCAFC6629795B6B00FD55B0 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC6429795B6700FD55B0 /* CustomerFetchUseCase.swift */,
+				5DCAFC8C297AC7F000FD55B0 /* UpdateBillsUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		5DCAFC6B29795C1B00FD55B0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC6929795BEB00FD55B0 /* CustomerRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		5DCAFC812979AFF500FD55B0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAFC822979B00500FD55B0 /* CustomerCoreDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D714FFC297E5BE6004D285A /* ElectricityCalculatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D715003297E5BE6004D285A /* Build configuration list for PBXNativeTarget "ElectricityCalculatorAppTests" */;
+			buildPhases = (
+				5D714FF9297E5BE6004D285A /* Sources */,
+				5D714FFA297E5BE6004D285A /* Frameworks */,
+				5D714FFB297E5BE6004D285A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D715002297E5BE6004D285A /* PBXTargetDependency */,
+			);
+			name = ElectricityCalculatorAppTests;
+			productName = ElectricityCalculatorAppTests;
+			productReference = 5D714FFD297E5BE6004D285A /* ElectricityCalculatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DCAFC2629794ED200FD55B0 /* ElectricityCalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCAFC3A29794ED300FD55B0 /* Build configuration list for PBXNativeTarget "ElectricityCalculatorApp" */;
+			buildPhases = (
+				5DCAFC2329794ED200FD55B0 /* Sources */,
+				5DCAFC2429794ED200FD55B0 /* Frameworks */,
+				5DCAFC2529794ED200FD55B0 /* Resources */,
+			);
+			buildRules = (
+				5D71500D297FA82C004D285A /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = ElectricityCalculatorApp;
+			productName = ElectricityCalculatorApp;
+			productReference = 5DCAFC2729794ED200FD55B0 /* ElectricityCalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DCAFC1F29794ED100FD55B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5D714FFC297E5BE6004D285A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5DCAFC2629794ED200FD55B0;
+					};
+					5DCAFC2629794ED200FD55B0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5DCAFC2229794ED100FD55B0 /* Build configuration list for PBXProject "ElectricityCalculatorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DCAFC1E29794ED100FD55B0;
+			productRefGroup = 5DCAFC2829794ED200FD55B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DCAFC2629794ED200FD55B0 /* ElectricityCalculatorApp */,
+				5D714FFC297E5BE6004D285A /* ElectricityCalculatorAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D714FFB297E5BE6004D285A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAFC2529794ED200FD55B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCAFC3229794ED300FD55B0 /* Preview Assets.xcassets in Resources */,
+				5DCAFC2F29794ED300FD55B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D714FF9297E5BE6004D285A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D71500B297E67D4004D285A /* CalculatorViewModelTests.swift in Sources */,
+				5D715008297E5C36004D285A /* CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAFC2329794ED200FD55B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA2D88E297C49D1005D94BB /* RoundTextField.swift in Sources */,
+				5DA2D898297D2EAA005D94BB /* CustomerRepositoryType.swift in Sources */,
+				5DCAFC80297972F200FD55B0 /* CustomerFetchUseCase.swift in Sources */,
+				5DA2D88C297C4944005D94BB /* RoundedButton.swift in Sources */,
+				5DA2D889297C473B005D94BB /* Helper.swift in Sources */,
+				5D714FF8297E59EB004D285A /* SlabProvider.swift in Sources */,
+				5DCAFC8D297AC7F000FD55B0 /* UpdateBillsUseCase.swift in Sources */,
+				5DA2D885297C3464005D94BB /* Calculator.swift in Sources */,
+				5DCAFC512979508000FD55B0 /* CalculatorView.swift in Sources */,
+				5DCAFC6A29795BEB00FD55B0 /* CustomerRepository.swift in Sources */,
+				5DA2D890297C704D005D94BB /* CalculatorContainer.swift in Sources */,
+				5DCAFC3729794ED300FD55B0 /* ElectricityCalculatorApp.xcdatamodeld in Sources */,
+				5DA2D895297D2E59005D94BB /* BillDTO.swift in Sources */,
+				5DCAFC4F2979508000FD55B0 /* CustomerView.swift in Sources */,
+				5DCAFC632979558D00FD55B0 /* CoreDataService.swift in Sources */,
+				5DA2D89A297D2EFE005D94BB /* CustomText.swift in Sources */,
+				5DCAFC93297ACCF400FD55B0 /* CustomerEntity.swift in Sources */,
+				5DCAFC95297AD98000FD55B0 /* CustomerViewModel.swift in Sources */,
+				5DCAFC832979B00500FD55B0 /* CustomerCoreDataService.swift in Sources */,
+				5DA2D893297D2E4C005D94BB /* CustomerDTO.swift in Sources */,
+				5DCAFC502979508000FD55B0 /* CalculatorViewModel.swift in Sources */,
+				5DCAFC2B29794ED200FD55B0 /* ElectricityCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D715002297E5BE6004D285A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DCAFC2629794ED200FD55B0 /* ElectricityCalculatorApp */;
+			targetProxy = 5D715001297E5BE6004D285A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D715004297E5BE6004D285A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J459F5C925;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitify.ElectricityCalculatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricityCalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElectricityCalculatorApp";
+			};
+			name = Debug;
+		};
+		5D715005297E5BE6004D285A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J459F5C925;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitify.ElectricityCalculatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricityCalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElectricityCalculatorApp";
+			};
+			name = Release;
+		};
+		5DCAFC3829794ED300FD55B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DCAFC3929794ED300FD55B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DCAFC3B29794ED300FD55B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ElectricityCalculatorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = J459F5C925;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitify.ElectricityCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DCAFC3C29794ED300FD55B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ElectricityCalculatorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = J459F5C925;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitify.ElectricityCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D715003297E5BE6004D285A /* Build configuration list for PBXNativeTarget "ElectricityCalculatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D715004297E5BE6004D285A /* Debug */,
+				5D715005297E5BE6004D285A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCAFC2229794ED100FD55B0 /* Build configuration list for PBXProject "ElectricityCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCAFC3829794ED300FD55B0 /* Debug */,
+				5DCAFC3929794ED300FD55B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCAFC3A29794ED300FD55B0 /* Build configuration list for PBXNativeTarget "ElectricityCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCAFC3B29794ED300FD55B0 /* Debug */,
+				5DCAFC3C29794ED300FD55B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DCAFC3529794ED300FD55B0 /* ElectricityCalculatorApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DCAFC3629794ED300FD55B0 /* ElectricityCalculatorApp.xcdatamodel */,
+			);
+			currentVersion = 5DCAFC3629794ED300FD55B0 /* ElectricityCalculatorApp.xcdatamodel */;
+			path = ElectricityCalculatorApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DCAFC1F29794ED100FD55B0 /* Project object */;
+}

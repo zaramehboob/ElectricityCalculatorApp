@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4EB61DEA-B249-483A-A0F9-6A7FF37F064A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA0037AC-7C92-47D8-A265-F4B040F2688B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CustomerList/CustomersView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "EA0037AC-7C92-47D8-A265-F4B040F2688B - a62b7e573b6d091c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt; in closure #2 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt;&gt;&gt;)&gt; in ElectricityCalculatorApp.CustomersView.body.getter : some"
+                  moduleName = "ElectricityCalculatorApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorApp/Presentation/CustomerList/CustomersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "EA0037AC-7C92-47D8-A265-F4B040F2688B - 65aad7da6cebecbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ElectricityCalculatorApp.BillDTO) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt; in closure #2 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt;&gt;&gt;)&gt; in ElectricityCalculatorApp.CustomersView.body.getter : some"
+                  moduleName = "ElectricityCalculatorApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorApp/Presentation/CustomerList/CustomersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "EA0037AC-7C92-47D8-A265-F4B040F2688B - 65aad7da6cebecd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ElectricityCalculatorApp.BillDTO) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt; in closure #2 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;ElectricityCalculatorApp.BillDTO&gt;, Foundation.UUID, SwiftUI.Text&gt;&gt;&gt;)&gt; in ElectricityCalculatorApp.CustomersView.body.getter : some"
+                  moduleName = "ElectricityCalculatorApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorApp/Presentation/CustomerList/CustomersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "956">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A42CA3F-DEC3-41EB-AC6D-C66E41A24676"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Domain/Calculation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "calculateCost(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CE054C4-FBB1-4D05-ADAB-8740241DC836"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Domain/Calculation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "calculateCost(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B00CC76-507B-49BA-A8FB-42C3F42C7186"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CustomerList/CustomerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "save()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A61570C7-56E1-4241-B91C-048302E886D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Data/Services/CustomerCoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "addCustomer(id:units:cost:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E033EA5-3688-4E77-AB5F-3ADC554E006B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CustomerList/CustomerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "calculateCurrentUnits()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7E3214C-130B-4A9B-B1D1-CEB8B820FFC5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Domain/Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "calculateCost(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "686D81F9-C551-4613-B42B-F5498C2CEE74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Data/Services/CustomerCoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "updateCustomer(id:units:cost:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "343F8C18-0768-4936-A580-F7EC17630712"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CustomerList/CustomerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "addCustomer()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB182068-36E8-4879-BA53-201091514960"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CustomerList/CustomerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "updateCustomer()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "868E8285-1F63-44C9-A3A8-398690D8FCDC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CalculatorView/CalculatorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "CalculatorViewModel"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1547E244-085F-4C34-B9BD-DC90FC2B1DA2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CalculatorView/CalculatorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "processUnitsValidity(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D043096-EF06-4DA4-B33B-7E1F65C1EC76"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorAppTests/Calculator/CalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "test_calculateCost_totalBill_success()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D043096-EF06-4DA4-B33B-7E1F65C1EC76 - e4ccb0d346c3f646"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectricityCalculatorAppTests.CalculatorTests.calculateCostTest_totalBill_success() -&gt; ()"
+                  moduleName = "ElectricityCalculatorAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorAppTests/Calculator/CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "4D043096-EF06-4DA4-B33B-7E1F65C1EC76 - 6efc374b11096ec6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectricityCalculatorAppTests.CalculatorTests.test_calculateCost_totalBill_success() -&gt; ()"
+                  moduleName = "ElectricityCalculatorAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorAppTests/Calculator/CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "4D043096-EF06-4DA4-B33B-7E1F65C1EC76 - 6efc374b11096e84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectricityCalculatorAppTests.CalculatorTests.test_calculateCost_totalBill_success() -&gt; ()"
+                  moduleName = "ElectricityCalculatorAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorAppTests/Calculator/CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "4D043096-EF06-4DA4-B33B-7E1F65C1EC76 - 6efc374b11096e84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectricityCalculatorAppTests.CalculatorTests.test_calculateCost_totalBill_success() -&gt; ()"
+                  moduleName = "ElectricityCalculatorAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorAppTests/Calculator/CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3796A0BF-AA61-4290-B8DF-31051AE7F9F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Domain/Models/CustomerDTO.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE06DEBD-A87F-4328-9770-B8C61FE8B5E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorAppTests/CalculatorView/CalculatorViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "test_submit_customerIdAlphaNumeric_success()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE06DEBD-A87F-4328-9770-B8C61FE8B5E0 - 2119628fc08b06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectricityCalculatorAppTests.CalculatorViewModelTests.test_submit_customerAlphaNumeric_success() -&gt; ()"
+                  moduleName = "ElectricityCalculatorAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorAppTests/CalculatorView/CalculatorViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "FE06DEBD-A87F-4328-9770-B8C61FE8B5E0 - b4a21a6ddc751ad8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectricityCalculatorAppTests.CalculatorViewModelTests.test_submit_customerIdAlphaNumeric_success() -&gt; ()"
+                  moduleName = "ElectricityCalculatorAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorAppTests/CalculatorView/CalculatorViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "FE06DEBD-A87F-4328-9770-B8C61FE8B5E0 - b4a21a6ddc751ad8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectricityCalculatorAppTests.CalculatorViewModelTests.test_submit_customerIdAlphaNumeric_success() -&gt; ()"
+                  moduleName = "ElectricityCalculatorAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorAppTests/CalculatorView/CalculatorViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED0D9A55-4E6A-4301-AA0F-2E47919486EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CalculatorView/CalculatorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "processUnitsValidity(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ED0D9A55-4E6A-4301-AA0F-2E47919486EA - 9e63a03bf148c1e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectricityCalculatorApp.CalculatorViewModel.processUnitsValidity(completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ElectricityCalculatorApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorApp/Presentation/CalculatorView/CalculatorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "ED0D9A55-4E6A-4301-AA0F-2E47919486EA - 80186ae66a8c7041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in ElectricityCalculatorApp.CalculatorViewModel.processUnitsValidity(completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ElectricityCalculatorApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zara/Documents/projects/WhiteLabelProjects/ElectricityCalculatorApp/ElectricityCalculatorApp/Presentation/CalculatorView/CalculatorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E515CD8-F84D-450F-9E63-81F283271477"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectricityCalculatorApp/Presentation/CalculatorView/CalculatorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "validateUnits(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "D9A75C12-AC89-4C04-B87C-FBF93BFE662A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = ""
+            moduleName = "">
+            <Locations>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
